@@ -1,5 +1,9 @@
 from telethon import TelegramClient, events
 import asyncio
+from pyfiglet import figlet_format
+
+start = figlet_format('StarBU' font = "doh")
+print(start)
 
 api_id = 
 api_hash = ""
